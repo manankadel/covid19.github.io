@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+		<style>
+		header-1 {
+			color: #fff;
+			text-shadow: 3px 2px 5px #000;
+			font-size: 50px;
+			font-weight: bold;
+			font-family: 'Roboto', sans-serif;
+		
+		}
+		nav {
+			font-size: 15px;
+			color: #fff;
+			font-weight: bold;
+			font-family: 'Roboto', sans-serif;
+		}
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#home">TABLEU</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+  <script>
+  
+    window.addEventListener('scroll', function() {
+      var body = document.querySelector('body');
+      var page1 = document.querySelector('.page1');
+      var page2 = document.querySelector('.page2');
+
+      if (window.pageYOffset > page1.offsetHeight) {
+        body.classList.add('scrolled');
+        page2.classList.add('active');
+      } else {
+        body.classList.remove('scrolled');
+        page2.classList.remove('active');
+      }
+    });
+
+    document.querySelector('a[href="#home"]').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('#home').scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+    document.querySelector('a[href="#dataset"]').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('#dataset').scrollIntoView({
+            behavior: 'smooth'
+        });
+    });document.querySelector('a[href="#tableau"]').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector('#tableau').scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+  </script>
+  <div class="page1">
+  
+	<header-1><b>SRM UNIVERSITY<b><BR>18CSE301J - Information Visualization<br>MANAN KADEL - RA2011026010085</header-1><br><br>
+	</div>
+	<div class="page2">
+
+	<main>
+
+		<section id="home">
+			<h1>Coronavirus (COVID-19) Data Visualization</h1>
+			<p>Coronavirus is a family of viruses that are named after their spiky crown. The novel coronavirus, also known as SARS-CoV-2, is a contagious respiratory virus that first reported in Wuhan, China. On 2/11/2020, the World Health Organization designated the name COVID-19 for the disease caused by the novel coronavirus. This dashboard aims at exploring COVID-19 through data analysis and projections.</p><br>
+
+
+			<div class='tableauPlaceholder' id='viz1682598659878' style='position: relative'><noscript><a href='#'><img alt='INDIA COVID-19 TRACKER ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;India-Covid-19Tracker&#47;India&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='views&#47;India-Covid-19Tracker&#47;India?:language=en-US&amp;:embed=true' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;India-Covid-19Tracker&#47;India&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1682598659878');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='2827px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<br><br>
+			<div class='tableauPlaceholder' id='viz1682599246821' style='position: relative'><noscript><a href='https:&#47;&#47;nihargarg.com&#47;'><img alt='New Cases, Deaths &amp; Tests ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;India_COVID19tracker_v1&#47;NewCasesDeathsTests&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='India_COVID19tracker_v1&#47;NewCasesDeathsTests' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;In&#47;India_COVID19tracker_v1&#47;NewCasesDeathsTests&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1682599246821');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+
+			<!-- Paste the embed code from Tableau Public or Tableau Server here -->
+	<div class='tableauPlaceholder' id='viz1630062958278' style='position: relative'>
+	<noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldIndicators_16300477677380&#47;WorldIndicators&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'>
+	<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+	<param name='embed_code_version' value='3' /> 
+	<param name='site_root' value='' />
+	<param name='name' value='WorldIndicators_16300477677380&#47;WorldIndicators' />
+	<param name='tabs' value='no' />
+	<param name='toolbar' value='yes' />
+	<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldIndicators_16300477677380&#47;WorldIndicators&#47;1.png' /> 
+	<param name='animate_transition' value='yes' />
+	<param name='display_static_image' value='yes' />
+	<param name='display_spinner' value='yes' />
+	<param name='display_overlay' value='yes' />
+	<param name='display_count' value='yes' />
+	</object></div>                
+	<script type='text/javascript'>
+  var divElement = document.getElementById('viz1682598659878');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  if (divElement.offsetWidth > 800) {
+    vizElement.style.width = '100%';
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+  } else if (divElement.offsetWidth > 500) {
+    vizElement.style.width = '100%';
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+  } else {
+    vizElement.style.width = '100%';
+    vizElement.style.height = '2827px';
+  }
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+
+  // hide the Tableau div element initially
+  divElement.style.display = 'none';
+
+  // show the Tableau div element when the visualization is loaded
+  vizElement.onload = function() {
+    divElement.style.display = 'block';
+  };
+</script>
+		
+		</section>
+		
+	</main>
+	<footer>
+		<p> COVID-19 DATA VISUALIZATION</p>
+	</footer>
+</body>
+</html>
